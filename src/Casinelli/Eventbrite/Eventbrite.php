@@ -1,5 +1,15 @@
 <?php namespace Casinelli\Eventbrite;
 
+/**
+ * Allows for managing eventbrite.com stuff, like event creation, venue and
+ * tickets creation, etc.
+ * TODO: Allow to set venue, organizer, and tickets to an event.
+ * Userful Links:
+ * http://developer.eventbrite.com/doc/#methods
+ * http://developer.eventbrite.com/doc/tickets/ticket_new/
+ * http://developer.eventbrite.com/doc/venues/venue_new/
+ * http://developer.eventbrite.com/doc/events/event_new/
+ */
 class Eventbrite {
 
     protected $app_key;
