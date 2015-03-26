@@ -17,7 +17,7 @@ Begin by installing this package through Composer.
 ### Getting started
 
 To create a new event:
-```
+```php
 $eventbrite = new \Casinelli\Eventbrite\Eventbrite("YOUR_APP_KEY", "YOUR_USER_KEY");
 
 // Creates a new event
