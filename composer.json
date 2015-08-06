@@ -1,10 +1,16 @@
 {
-    "name": "casinelli/eventbrite",
-    "description": "",
+    "name": "njames/eventbrite",
+    "description": "API Wrapper for Eventbrite for Laravel 5 ",
     "authors": [
         {
             "name": "Casinelli",
-            "email": "giovanni.casinelli@gmail.com"
+            "email": "giovanni.casinelli@gmail.com",
+            "role" : "Developer of original package"
+        },
+        {
+            "name": "njames",
+            "email": "nigel.james@squarecloud.com.au",
+            "role" : "Developer"
         }
     ],
     "require": {
@@ -16,7 +22,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Casinelli\\Eventbrite\\": "src/"
+            "njames\\Eventbrite\\": "src/"
         }
     },
     "minimum-stability": "stable"
