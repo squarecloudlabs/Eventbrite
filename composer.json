@@ -10,6 +10,7 @@
         {
             "name": "njames",
             "email": "nigel.james@squarecloud.com.au",
+            "homepage" : "http://squarecloud.com.au/",
             "role" : "Developer"
         }
     ],
@@ -22,7 +23,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "njames\\Eventbrite\\": "src/"
+            "Squarecloud\\Eventbrite\\": "src/"
         }
     },
     "minimum-stability": "stable"
