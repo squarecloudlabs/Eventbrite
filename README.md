@@ -1,6 +1,6 @@
 # Eventbrite
 
-Eventbrite APIs for Laravel 4.
+Eventbrite APIs for Laravel 5.
 
 ### Installation
 
@@ -25,3 +25,7 @@ $eventbrite->createEvent('Dine with Inez', 'A huge feast of oil and mayo!!!', $s
 ```
 
 *Better documentation coming soon.*
+
+### Laravel 5
+
+I have just taken this package on and am testing for Laravel 5 compatibility.
