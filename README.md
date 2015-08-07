@@ -9,7 +9,7 @@ Begin by installing this package through Composer.
 ```js
 {
     "require": {
-        "njames/eventbrite": "dev-master"
+        "sqrc/eventbrite": "dev-master"
     }
 }
 ```
@@ -18,10 +18,10 @@ Begin by installing this package through Composer.
 
 To create a new event:
 ```php
-$eventbrite = new \Squarecloud\Eventbrite\Eventbrite("YOUR_APP_KEY", "YOUR_USER_KEY");
+$eventbrite = new \Sqrc\Eventbrite\Eventbrite("YOUR_APP_KEY", "YOUR_USER_KEY");
 
 // Creates a new event
-$eventbrite->createEvent('Dine with Inez', 'A huge feast of oil and mayo!!!', $startDate, $endDate, $timezone, $details);
+$eventbrite->createEvent('Hackfest for all', 'Code for 30 Hours straight.', $startDate, $endDate, $timezone, $details);
 ```
 
 *Better documentation coming soon.*

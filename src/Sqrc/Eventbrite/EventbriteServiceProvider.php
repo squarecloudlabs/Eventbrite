@@ -1,4 +1,4 @@
-<?php namespace Casinelli\Eventbrite;
+<?php namespace Sqrc\Eventbrite;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class EventbriteServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('casinelli/eventbrite');
+		$this->package('njames/eventbrite');
 	}
 
 	/**

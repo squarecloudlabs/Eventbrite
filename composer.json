@@ -1,11 +1,13 @@
 {
-    "name": "njames/eventbrite",
-    "description": "API Wrapper for Eventbrite for Laravel 5 ",
+    "name": "sqrc/eventbrite",
+    "description": "Eventbrite is an expressive, fluent wrapper around Eventbrites API",
+    "keywords": ["laravel", "Eventbrite", "events", "booking"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Casinelli",
             "email": "giovanni.casinelli@gmail.com",
-            "role" : "Developer of original package"
+            "role" : "Original Inspiration"
         },
         {
             "name": "njames",
@@ -23,7 +25,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Squarecloud\\Eventbrite\\": "src/"
+            "Sqrc\\Eventbrite\\": "src/"
         }
     },
     "minimum-stability": "stable"

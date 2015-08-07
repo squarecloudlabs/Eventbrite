@@ -1,4 +1,4 @@
-<?php namespace Casinelli\Eventbrite;
+<?php namespace Sqrc\Eventbrite;
 
 /**
  * Allows for managing eventbrite.com stuff, like event creation, venue and
