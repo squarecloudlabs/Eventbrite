@@ -56,7 +56,7 @@ class Eventbrite {
 
         $full_url = $url . '?' . $data_string;
 
-        return Response::json(file_get_contents($full_url));
+        return response()->json(file_get_contents($full_url));
     }
 
 }
