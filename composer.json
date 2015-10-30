@@ -1,5 +1,5 @@
 {
-    "name": "sqrc/eventbrite",
+    "name": "coolcodemy/eventbrite",
     "description": "Eventbrite is an expressive, fluent wrapper around Eventbrites API",
     "keywords": ["laravel", "Eventbrite", "events", "booking"],
     "license": "MIT",
@@ -14,6 +14,12 @@
             "email": "nigel.james@squarecloud.com.au",
             "homepage" : "http://squarecloud.com.au/",
             "role" : "Developer"
+        },
+        {
+            "name": "Ahmad Fikrizaman",
+            "email": "ahmadfikrizaman@gmail.com",
+            "homepage" : "https://fikri.my",
+            "role" : "Developer"
         }
     ],
     "require": {
@@ -25,7 +31,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Sqrc\\Eventbrite\\": "src/"
+            "Coolcodemy\\Eventbrite\\": "src/"
         }
     },
     "minimum-stability": "stable"

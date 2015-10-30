@@ -1,4 +1,4 @@
-<?php namespace Sqrc\Eventbrite;
+<?php namespace Coolcodemy\Eventbrite;
 
 /**
  * Allows for managing eventbrite.com stuff, like event creation, venue and
@@ -56,7 +56,7 @@ class Eventbrite {
 
         $full_url = $url . '?' . $data_string;
 
-        return Response::json(file_get_contents($full_url));
+        return response()->json(file_get_contents($full_url));
     }
 
 }
