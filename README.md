@@ -9,7 +9,7 @@ Begin by installing this package through Composer.
 ```js
 {
     "require": {
-        "coolcodemy/eventbrite": "dev-master"
+        "coolcodemy/eventbrite": "dev-patch-1"
     }
 }
 ```
