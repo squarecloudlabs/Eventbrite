@@ -1,4 +1,4 @@
-<?php namespace Sqrc\Eventbrite;
+<?php namespace Coolcodemy\Eventbrite;
 
 use Illuminate\Support\ServiceProvider;
 

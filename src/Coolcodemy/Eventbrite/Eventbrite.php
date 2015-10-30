@@ -1,4 +1,4 @@
-<?php namespace Sqrc\Eventbrite;
+<?php namespace Coolcodemy\Eventbrite;
 
 /**
  * Allows for managing eventbrite.com stuff, like event creation, venue and
