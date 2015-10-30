@@ -9,7 +9,7 @@ Begin by installing this package through Composer.
 ```js
 {
     "require": {
-        "sqrc/eventbrite": "dev-master"
+        "coolcodemy/eventbrite": "dev-master"
     }
 }
 ```
@@ -18,7 +18,7 @@ Begin by installing this package through Composer.
 
 To create a new event:
 ```php
-$eventbrite = new \Sqrc\Eventbrite\Eventbrite("YOUR_APP_KEY", "YOUR_USER_KEY");
+$eventbrite = new \coolcodemy\Eventbrite\Eventbrite("YOUR_APP_KEY", "YOUR_USER_KEY");
 
 // Creates a new event
 $eventbrite->createEvent('Hackfest for all', 'Code for 30 Hours straight.', $startDate, $endDate, $timezone, $details);
